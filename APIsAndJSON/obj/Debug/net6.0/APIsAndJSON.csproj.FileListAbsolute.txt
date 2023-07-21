@@ -1,0 +1,17 @@
+C:\Users\owenz\OneDrive\Desktop\Repos\APIs-and-JSON-Exercise\APIsAndJSON\bin\Debug\net6.0\APIsAndJSON.exe
+C:\Users\owenz\OneDrive\Desktop\Repos\APIs-and-JSON-Exercise\APIsAndJSON\bin\Debug\net6.0\APIsAndJSON.deps.json
+C:\Users\owenz\OneDrive\Desktop\Repos\APIs-and-JSON-Exercise\APIsAndJSON\bin\Debug\net6.0\APIsAndJSON.runtimeconfig.json
+C:\Users\owenz\OneDrive\Desktop\Repos\APIs-and-JSON-Exercise\APIsAndJSON\bin\Debug\net6.0\APIsAndJSON.dll
+C:\Users\owenz\OneDrive\Desktop\Repos\APIs-and-JSON-Exercise\APIsAndJSON\bin\Debug\net6.0\APIsAndJSON.pdb
+C:\Users\owenz\OneDrive\Desktop\Repos\APIs-and-JSON-Exercise\APIsAndJSON\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\owenz\OneDrive\Desktop\Repos\APIs-and-JSON-Exercise\APIsAndJSON\obj\Debug\net6.0\APIsAndJSON.csproj.AssemblyReference.cache
+C:\Users\owenz\OneDrive\Desktop\Repos\APIs-and-JSON-Exercise\APIsAndJSON\obj\Debug\net6.0\APIsAndJSON.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\owenz\OneDrive\Desktop\Repos\APIs-and-JSON-Exercise\APIsAndJSON\obj\Debug\net6.0\APIsAndJSON.AssemblyInfoInputs.cache
+C:\Users\owenz\OneDrive\Desktop\Repos\APIs-and-JSON-Exercise\APIsAndJSON\obj\Debug\net6.0\APIsAndJSON.AssemblyInfo.cs
+C:\Users\owenz\OneDrive\Desktop\Repos\APIs-and-JSON-Exercise\APIsAndJSON\obj\Debug\net6.0\APIsAndJSON.csproj.CoreCompileInputs.cache
+C:\Users\owenz\OneDrive\Desktop\Repos\APIs-and-JSON-Exercise\APIsAndJSON\obj\Debug\net6.0\APIsAndJSON.csproj.CopyComplete
+C:\Users\owenz\OneDrive\Desktop\Repos\APIs-and-JSON-Exercise\APIsAndJSON\obj\Debug\net6.0\APIsAndJSON.dll
+C:\Users\owenz\OneDrive\Desktop\Repos\APIs-and-JSON-Exercise\APIsAndJSON\obj\Debug\net6.0\refint\APIsAndJSON.dll
+C:\Users\owenz\OneDrive\Desktop\Repos\APIs-and-JSON-Exercise\APIsAndJSON\obj\Debug\net6.0\APIsAndJSON.pdb
+C:\Users\owenz\OneDrive\Desktop\Repos\APIs-and-JSON-Exercise\APIsAndJSON\obj\Debug\net6.0\APIsAndJSON.genruntimeconfig.cache
+C:\Users\owenz\OneDrive\Desktop\Repos\APIs-and-JSON-Exercise\APIsAndJSON\obj\Debug\net6.0\ref\APIsAndJSON.dll
