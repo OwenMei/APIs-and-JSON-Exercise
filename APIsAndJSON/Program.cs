@@ -11,31 +11,14 @@ namespace APIsAndJSON
         {
             for(int i = 0; i < 3; i++)
             {
-                Console.WriteLine("Ron: " + RonQuote());
-                Console.WriteLine("Kanye: " + KanyeQuote());
+                Console.WriteLine("Ron: " + RonVSKanyeAPI.RonQuote());
+                Console.WriteLine("Kanye: " + RonVSKanyeAPI.KanyeQuote());
             }
-            
-            
-        }
 
-        public static string RonQuote()
-        {
-            HttpClient client = new HttpClient();
-            var ronURL = "https://ron-swanson-quotes.herokuapp.com/v2/quotes";
-            var ronResponse = client.GetStringAsync(ronURL).Result;
+            Console.WriteLine("\n\n\nWhat city would you like to know the temperature of?");
+            string city = Console.ReadLine();
 
-            var ronObject = JArray.Parse(ronResponse)[0];
-            return ronObject.ToString();
-        }
-
-        public static string KanyeQuote()
-        {
-            HttpClient client = new HttpClient();
-            var kanyeURL = "https://api.kanye.rest/";
-            var kanyeResponse = client.GetStringAsync(kanyeURL).Result;
-
-            var kanyeObject = JObject.Parse(kanyeResponse).GetValue("quote");
-            return kanyeObject.ToString();
+            Console.WriteLine($"In {city}, it is currently {OpenWeatherMapAPI.GetWeather(city)} degrees fahreinheit");
         }
     }
 }
