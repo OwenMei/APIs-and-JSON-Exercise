@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Microsoft.Extensions.Configuration;
+using System.Reflection;
 
 namespace APIsAndJSON
 {
@@ -13,9 +15,18 @@ namespace APIsAndJSON
     {
         public static string GetWeather(string location)
         {
+            var builder = new ConfigurationBuilder()
+            .SetBasePath(Directory.GetCurrentDirectory())
+            .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+
+            IConfigurationRoot configuration = builder.Build();
+
+            string apiKey = configuration.GetSection("AppSettings")["ApiKey"];
+
             HttpClient client = new HttpClient();
+            
             string city = location;
-            var weatherAPI = $"https://api.openweathermap.org/data/2.5/weather?q={city}&appid=b9defe8f16210960fbebbdebf9a00ed8";
+            var weatherAPI = $"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey}";
             var gotTemp = client.GetStringAsync(weatherAPI).Result;
 
             var getTheCity = JObject.Parse(gotTemp).GetValue("main");
